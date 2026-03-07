@@ -13,12 +13,12 @@
 
 ---
 
-### Featured Projects
+### Featured Multi-Layer AI Projects
 
-| Project | Description | Type |
-|---|---|---|
-| [**AI Product Strategy & Exploration**](https://github.com/rishabhmittalvalue/ai-product-exploration) | Hands-on exploration of LLMs, prompt engineering, and AI use-case analysis tied to business impact | AI / PM |
-| [**Go-To-Market Strategy Framework**](https://github.com/rishabhmittalvalue/gtm-strategy-framework) | Market sizing, competitive analysis, and GTM playbook for an AI-native B2B product | Strategy / BizDev |
+| Project | Description | Type | Problem Solved |
+|---|---|---|---|
+| [**ATS CV Builder**](https://n8n.rishabhmittal.me/workflow/jdPLSJIv3ZGiXfCFxyCf2) | You upload your resume as a PDF, a form submission kicks off the whole thing. The workflow pulls the text out of the PDF, hands it to a Gemini-powered AI agent that actually reads and restructures your resume content, runs it through a JavaScript layer to format everything cleanly, and then sends the final ATS-ready version straight to your Gmail. No manual steps, no copy-pasting. The JSON flow goes from form trigger to file extraction to AI reasoning to code transformation to email delivery, each node doing one job really well. | AI / Automation | Tailoring resumes for every job is painful and most people just do not do it. This removes that friction entirely. |
+| [**LinkGPT v2**](https://n8n.rishabhmittal.me/workflow/QBVG-C65kbUA31iiPFjcF) | You type a target persona into a chat, and the workflow figures out the rest. It builds a Boolean search string using an AI model, runs authenticated Google searches page by page collecting up to 50 results, pulls LinkedIn URLs and workplace context from the raw HTML, uses ChatGPT to infer company domain names, hits Hunter.io to find verified email addresses, and then generates a personalized outreach message for each contact. All of this gets logged into a freshly created Google Sheet automatically. The JSON journey spans chat input, search construction, looping pagination, multi-model AI inference, API calls, spreadsheet creation, and message generation. | AI / BizDev / Outreach | Manual prospecting eats hours every week. This compresses a full research and outreach cycle into a single chat message. |
 
 ---
 
@@ -34,11 +34,11 @@
 
 I'm actively exploring PM, Business Development, and Strategy roles at AI startups, venture studios, and tech companies.
 
-If you're building something interesting or want to collaborate — I'd love to connect.
+If you're building something interesting or want to collaborate, I'd love to connect.
 
 📧 **rishabh.mittal@kellogg.northwestern.edu**
 🔗 **[LinkedIn](https://www.linkedin.com/in/rishabhmittalvalue)**
 
 ---
 
-*This GitHub is a product and strategy portfolio with technical depth — not just a code repo.*
+*This GitHub is a product and strategy portfolio with technical depth, not just a code repo.*
